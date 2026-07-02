@@ -46,7 +46,7 @@ pip install meridian
 Or from source:
 
 ```bash
-git clone https://github.com/vijaymandavilli/meridian
+git clone https://github.com/mandavillivijay/meridian
 cd meridian
 pip install -e ".[dev]"
 ```
