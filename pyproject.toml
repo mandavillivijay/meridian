@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "meridian"
+name = "meridian-regression"
 version = "0.1.0"
 description = "Local, embedding-based LLM model equivalence scoring for migration validation"
 readme = "README.md"
@@ -38,7 +38,7 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/vijaymandavilli/meridian"
+Repository = "https://github.com/mandavillivijay/meridian"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

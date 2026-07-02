@@ -40,7 +40,7 @@ Thresholds are configurable. Defaults (0.92 / 0.75) are starting points — cali
 ## Installation
 
 ```bash
-pip install meridian
+pip install meridian-regression
 ```
 
 Or from source:
