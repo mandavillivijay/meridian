@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+*.egg
+
+# test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# sentence-transformers model cache (large, re-downloadable)
+# .cache/
+
+# generated reports (reproducible from golden dataset)
+reports/
+
+# populated golden dataset — contains API outputs, regenerate with scripts/generate_golden_dataset.py
+datasets/golden_50.json
+
+# paper build artefacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.pdf
+paper/*.synctex.gz
+paper/*.toc

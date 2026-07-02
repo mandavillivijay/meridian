@@ -1,0 +1,50 @@
+[
+  {
+    "prompt": "What is the capital of France?",
+    "intent": "factual",
+    "old_output": "The capital of France is Paris.",
+    "new_output": "Paris is the capital city of France."
+  },
+  {
+    "prompt": "What year did World War II end?",
+    "intent": "factual",
+    "old_output": "World War II ended in 1945.",
+    "new_output": "The Second World War ended in 1945."
+  },
+  {
+    "prompt": "Write a short poem about the ocean.",
+    "intent": "generative",
+    "old_output": "Waves crash upon the shore,\nSalt and sea forever more.\nDepths unknown beneath the blue,\nOcean vast and ever true.",
+    "new_output": "The ocean breathes in endless tides,\nA world of wonder where life resides.\nCrashing waves on ancient stone,\nThe sea reminds us we're not alone."
+  },
+  {
+    "prompt": "Write a one-sentence tagline for a coffee brand.",
+    "intent": "generative",
+    "old_output": "Wake up to the world's finest brew.",
+    "new_output": "Start every morning with something extraordinary."
+  },
+  {
+    "prompt": "Is the following review positive or negative? 'The service was slow but the food was amazing.'",
+    "intent": "classification",
+    "old_output": "Mixed — the review contains both a negative sentiment (slow service) and a positive sentiment (amazing food).",
+    "new_output": "This is a mixed review: negative about service speed, positive about food quality."
+  },
+  {
+    "prompt": "Classify the following text as spam or not spam: 'Congratulations! You have won a $1000 gift card. Click here to claim.'",
+    "intent": "classification",
+    "old_output": "Spam",
+    "new_output": "This is spam."
+  },
+  {
+    "prompt": "Extract the name, date, and amount from this invoice text: 'Invoice for John Smith dated 2024-03-15, total $450.00'",
+    "intent": "structured_output",
+    "old_output": "{\"name\": \"John Smith\", \"date\": \"2024-03-15\", \"amount\": \"$450.00\"}",
+    "new_output": "{\"name\": \"John Smith\", \"date\": \"2024-03-15\", \"amount\": 450.00}"
+  },
+  {
+    "prompt": "Return a JSON object with keys 'celsius' and 'fahrenheit' for 100 degrees Celsius.",
+    "intent": "structured_output",
+    "old_output": "{\"celsius\": 100, \"fahrenheit\": 212}",
+    "new_output": "{\"celsius\": 100, \"fahrenheit\": 212.0}"
+  }
+]
