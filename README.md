@@ -35,7 +35,7 @@ Cosine Similarity
      (flag)         (human eye)          (auto-pass)
 ```
 
-Thresholds are configurable. Defaults (0.92 / 0.75) are empirically derived from the claude-3-sonnet → claude-3-5-sonnet migration study described in the accompanying paper.
+Thresholds are configurable. Defaults (0.92 / 0.75) are starting points — calibrate them against a small human-labeled set for your domain. See the accompanying paper for a calibration procedure derived from the deepseek-chat (V3) → deepseek-reasoner (R1) empirical study.
 
 ## Installation
 
